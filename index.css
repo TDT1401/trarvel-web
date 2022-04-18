@@ -38,7 +38,8 @@ header{
 }
 .header-top ul{
     position: fixed;
-    right: 0;
+    top: 3rem;
+    left: 0;
     width: 300px;
     height: 100vh;
     padding: 150px 0 0 50px;
@@ -81,7 +82,7 @@ header{
 .header-content{
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     min-height: 100vh;
     background-color: rgba(255,255,255,0.1);
     padding: 150px 50px 0 50px;
