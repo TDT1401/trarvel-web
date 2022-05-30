@@ -16,6 +16,15 @@ ul{
 a{
     text-decoration: none;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .container{
+    max-width: 1024px;
+    margin: auto;
+  }
 .video-container{
     height: 100vh;
     width: 100vw;
@@ -133,20 +142,26 @@ form button:hover{
     border: 1px solid var(--main-color);
     color: var(--main-color);
 }
+.form-message {
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+  }
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+  }
+  
+.form-group.invalid .form-message {
+    color: #f33a58;
+  }
 
+  
 /* ------------NICE * PLACE-------------- */
 .nice-place{
     padding: 100px 0;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.container{
-    max-width: 1024px;
-    margin: auto;
-}
+
 .nice-place-item{
     width: 30%;
     height: 400px;
